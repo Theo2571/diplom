@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  overflow-x: hidden;
+}
+body {
+  overflow-y: hidden;
+}
+.wrapper {
+  margin: 25px 125px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  align-items: baseline;
+}
+.logo__text {
+  font-family: "Roboto", sans-serif;
+}
+.min__kvadr {
+  height: 0.3581rem;
+  width: 0.3581rem;
+  border-radius: 0px;
+  background: linear-gradient(
+    89.94deg,
+    #b16cea -21.68%,
+    #ff5e69 47.38%,
+    #ff8a56 99.43%,
+    #ffa84b 132.45%
+  );
+}
+.navbar {
+  font-family: "Roboto", sans-serif;
+}
+.nav {
+  display: flex;
+  gap: 50px;
+}
+.nav__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+.razdel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.razdel1 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.back-drop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+  z-index: 100;
+}
+.back-drop.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.orange {
+  font-size: 72px;
+  line-height: 82px;
+
+  letter-spacing: 2px;
+  color: #ff8a56;
+}
+.block__title {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  margin: 60px 0;
+}
+.block__item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.block__item-text {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 5.125rem;
+  letter-spacing: 0.125rem;
+  color: #000000;
+  width: 715px;
+  height: 246px;
+}
+.block__item-desc {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #666666;
+  width: 547px;
+  height: 66px;
+}
+.button {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.btn__link {
+  text-decoration: none;
+  padding: 20px 40px;
+  color: #000;
+}
+.black__btn {
+  background: #000000;
+  color: white;
+}
+
+.trusted {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoip {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  height: 170px;
+}
+.characteristics {
+  font-family: "Roboto", sans-serif;
+ display: flex;
+justify-content: center;
+gap: 120px;
+flex-wrap: wrap;
+align-items: flex-end;
+}
+.characteristics__osnova {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.characteristics__title {
+  font-size: 1.375rem;
+  line-height: 1.375rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #ff5e69;
+  width: 139px;
+}
+.characteristics__text {
+  font-size: 54px;
+  line-height: 59px;
+  width: 768px;
+  height: 250px;
+  letter-spacing: 1px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+}
+.characteristics__item {
+  display: flex;
+  flex-direction: column;
+}
+.characteristics__item-text {
+  height: 27px;
+  width: 244px;
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  color: #000000;
+}
+.characteristics__item-desc {
+  height: 84px;
+  width: 252px;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #666666;
+}
+
+.black-block {
+  display: flex;
+  flex-direction: column;
+}
+.black-block__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.black-block__link {
+  height: 7px;
+  width: 7px;
+  border-radius: 0px;
+  background: #000000;
+}
+.characteristics__skill {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #000000;
+  margin: 5px;
+}
+.scroll__title {
+  font-family: 'Roboto', sans-serif;
+  margin: 180px 260px;
+}
+.scroll__title__item {
+ display: flex;
+ justify-content: space-between;
+}
+.scroll__title__flex {
+  display: flex;
+  flex-direction: column;
+}
+.scroll__title__h2 {
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.375rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #B16CEA;
+}
+.scroll__title__h1 {
+  font-weight: 700;
+  font-size: 3.375rem;
+  line-height: 3.6875rem;
+  letter-spacing: 1px;
+  color: #000000;
+  height: 60px;
+width: 544px;
+margin: 0;
+display: flex;
+}
+
+.black__btn-scroll {
+  height: 58px;
+width: 201px;
+text-decoration: none;
+border-radius: 0px;
+background: #000000;
+color: aliceblue;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.black__btn-scroll--left {
+display: flex;
+align-items: center;
+
+}
